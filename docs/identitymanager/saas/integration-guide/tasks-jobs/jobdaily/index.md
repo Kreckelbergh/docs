@@ -34,7 +34,7 @@ In the following example the Synchronization job for the Connector "AD" will be 
 If a pre-treatment is needed, you must create an
 [Export Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md). Otherwise
 it is unnecessary. Choose the Export task corresponding to the connector. If the Export uses the
-incremental mode, set IgnoreCookieFile to false.
+complete mode, set IgnoreCookieFile to false.
 
 All Export task have the ContinueOnError property. It is advisable to begin with the value of True
 so that the task is not blocking for the Job.
